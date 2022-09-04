@@ -1,0 +1,62 @@
+#container-fluid{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: right;
+  width: 90%;
+  margin: 0 auto;
+  height: 3rem;
+  background-color: aqua;
+}
+
+#toll-free{
+  padding: 0.7rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#location{
+  padding: 0.7rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#login{
+  padding: 0.5rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.button{
+  border-style: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.5rem;
+  background-color: deepskyblue;
+}
+
+nav {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+  width: 90%;
+  margin: auto;
+}
+
+#vm-brand{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: 3rem;
+  font-weight:600;
+}
+
+#cart{
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  background-color: grey;
+
+}
